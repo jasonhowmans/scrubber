@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font: 17px/1.4 Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+
+/* Scrubber stuff */
+.scrubber {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background: #7E8685;
+  border-radius: 5px;
+}
+
+.scrubber-timeline {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  cursor: ew-resize;
+  transition: all 300ms;
+}
+
+.scrubber-timeline:hover {
+  background: #97A8A6;
+}
+
+.scrubber-timeline-item {
+  box-sizing: border-box;
+  position: relative;
+  height: 60px;
+  overflow: visible;
+  background-color: #2BBBA5;
+  border-radius: 3px;
+}
+
+.scrubber-timeline-item.new {
+  border: 2px dashed #2BBBA5;
+  background: #81E2D3;
+}
+
+.scrubber-edit-dialog {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.scrubber-edit-dialog > h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+/* Scrubber form elements */
+.scrubber-form-row {
+  width: 100%;
+}
+
+.scrubber-form-row > input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.scrubber-button-group > button {
+  display: block;
+  float: left;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+}
+
+.scrubber-button-group button.half { width: 50%; }
+.scrubber-button-group button.cancel { background: #EA462A; }
+.scrubber-button-group button.create { background: #2BEA2A; }
