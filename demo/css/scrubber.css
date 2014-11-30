@@ -26,7 +26,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 130px;
-  cursor: ew-resize;
+  cursor: crosshair;
   transition: all 300ms;
 }
 
@@ -131,6 +131,7 @@ body {
 .scrubber-form-row > input {
   display: block;
   width: 100%;
+  font-size: 19px;
   border: 1px solid #ccc;
 }
 
