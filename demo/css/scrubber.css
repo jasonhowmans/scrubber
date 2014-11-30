@@ -25,7 +25,7 @@ body {
 .scrubber-timeline {
   box-sizing: border-box;
   width: 100%;
-  height: 60px;
+  height: 130px;
   cursor: ew-resize;
   transition: all 300ms;
 }
@@ -37,10 +37,28 @@ body {
 .scrubber-timeline-item {
   box-sizing: border-box;
   position: relative;
-  height: 60px;
+  height: 130px;
   overflow: visible;
   background-color: #2BBBA5;
   border-radius: 3px;
+}
+
+.scrubber-times-container {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+}
+
+.scrubber-time-start {
+  float: left;
+}
+
+.scrubber-time-end { 
+  float: right;
 }
 
 .scrubber-timeline-item.new {
