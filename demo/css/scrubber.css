@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 100%;
   padding: 1rem;
-  background: #7E8685;
+  background: #D9D9D9;
   border-radius: 5px;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .scrubber-timeline:hover {
-  background: #97A8A6;
+  background: #E8E8E8;
 }
 
 .scrubber-timeline-item {
@@ -39,7 +39,7 @@ body {
   position: relative;
   height: 130px;
   overflow: visible;
-  background-color: #2BBBA5;
+  background: #15B8C0;
   border-radius: 3px;
 }
 
@@ -102,8 +102,8 @@ body {
 }
 
 .scrubber-timeline-item.new {
-  border: 2px dashed #2BBBA5;
-  background: #81E2D3;
+  border: 2px dashed #02979E;
+  background: #15B8C0;
 }
 
 .scrubber-edit-dialog {
